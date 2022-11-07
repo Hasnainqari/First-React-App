@@ -57,5 +57,7 @@
   text-align: left;
 }
 .ul {
+  color: #61dafb !important;
   padding: 10px;
+  /* list-style: none; */
 }
