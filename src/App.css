@@ -3,13 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 30vmin;
+   pointer-events: all;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+      animation: App-logo-spin infinite 50s linear;
   }
 }
 
@@ -30,9 +30,32 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+      transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+      transform: rotate(360deg);
   }
+}
+
+
+.world {
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+}
+
+.data {
+  font-size: larger;
+  color: wheat;
+}
+.lists {
+  /* background-color: wheat; */
+  display: flex;
+  flex-direction: row;
+}
+.ul li {
+  text-align: left;
+}
+.ul {
+  padding: 10px;
 }
